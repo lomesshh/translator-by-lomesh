@@ -3,6 +3,31 @@ html, body {
   padding: 0;
 }  
 
+header{
+  background:url(https://i.postimg.cc/wB77552j/pexels-miguel-padri-n-194096.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header div{
+  font-size: 2rem; padding: 1rem;
+  background-color: black;
+  color: #C4A974;
+  font-weight: bold;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  width: 80%;
+  height: 200px;
+}
+
 textarea {
     margin: 1rem;
     padding: 1rem;
@@ -11,7 +36,13 @@ textarea {
     border: 3px solid #C4A974;
     border-radius: 4px;
     height: 10vh;
-  }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: #C4A974;
+    font-size: larger;
+   }
 
 button {
     color: #C4A974;
@@ -20,10 +51,17 @@ button {
     background-color: black;
     border-radius: 12px;
     padding: 15px 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-
-
+  #outdiv{
+    font-size: x-large;
+  text-align: center;
+  color: black;
+  background-color: #C4A974;
+  }
 
 .social-footer {
     padding: 1rem;

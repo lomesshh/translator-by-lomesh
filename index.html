@@ -11,84 +11,59 @@
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
 
-  <title>Translator by LB</title>
-  
+  <title>Translator</title>
+
 </head>
 
 <body>
-  <header style="background:url(https://i.postimg.cc/wB77552j/pexels-miguel-padri-n-194096.jpg);
-	  height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;">
-    <div style="font-size: 2rem; padding: 1rem;
-    background-color: black;
-    color: #C4A974;
-    font-weight: bold;
-    text-align: center;">
+  <header>
+    <div>
       Mandalorian Translator
     </div><br>
 
-    <img src="https://i.postimg.cc/8kJY9mLW/namee.jpg" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 12px;
-  width: 80%;
-  height: 200px;">
-    <!-- #423D61 <img src="https://i.postimg.cc/Hsp9CK3c/mandoo.jpg" width="730" height="300" class="center" style=""> -->
+    <img src="https://i.postimg.cc/GpJprMXt/namee.jpg">
 
     <textarea id="txt-input"
-      placeholder="Enter Your sentence in english here and we will Translate it into Mandalorian language for you"
-      style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  color: #C4A974;
-  font-size: larger;"></textarea>
+      placeholder="Enter Your sentence in english here and we will Translate it into Mandalorian language for you"></textarea>
 
-    <button id="btn-translate" style="display: block;
-    margin-left: auto;
-    margin-right: auto;">Translate</button>
+    <button id="btn-translate">Translate</button>
 
-    <textarea id="output" placeholder="Will show Output here..!! 😉" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: black;
-  color: #C4A974;
-  font-size: larger;"></textarea>
+    <textarea id="output" placeholder="Will show Output here..!! 😉"></textarea>
     <br>
 
   </header>
-  <div style="font-size: x-large;
-  text-align: center;
-  color: black;
-  background-color: #C4A974;">About Mando 🗡️
-  <p>Mando'a, sometimes referred to simply as Mandalorian, was the primary language spoken by the Mandalorian culture. 
-    Elements of Mando'a were taken from the language of the ancient Taungs of Coruscant, from which the culture stemmed, 
-    evolving over time to become something unique...</p></div>
+  <div id="outdiv">About Mando 🗡️
+    <p>Mando'a, sometimes referred to simply as Mandalorian, was the primary language spoken by the Mandalorian culture.
+      Elements of Mando'a were taken from the language of the ancient Taungs of Coruscant, from which the culture
+      stemmed,
+      evolving over time to become something unique...</p>
+  </div>
+
   <footer class="social-footer">
-    <div class="social-footer-left"  style="color: white;"  >
-      <h2 class="ftco-heading-2">Translator by Lomesh</h2>
-              <p>Everything you can imagine is RE∆L⭐ </p>
+    <div class="social-footer-left" style="color: white;">
+      <h2 class="ftco-heading-2">Translator by Lomesh <span style="font-size: medium;">Using API</span></h2>
+      <p>Everything you can imagine is RE∆L⭐ </p>
     </div>
     <div class="social-footer-icons">
       <ul class="menu simple" style="list-style-type: none; display: inline-block;">
-        <li><a href="https://api.whatsapp.com/send?phone=919833223117"><i class="fa fa-whatsapp" aria-hidden="true"></i><span style="color: white;">&ensp; +91 9833223117</span></a></li><br>
-        <li><a href="https://www.facebook.com/lomesh.badhe" target="_top"><i class="fa fa-facebook-official" aria-hidden="true"></i><span style="color: white;">&ensp; Lomesh LB</span></a></li><br>
-        <li><a href="https://www.instagram.com/lomesshh/"><i class="fa fa-instagram" aria-hidden="true"></i><span style="color: white;">&ensp; lomesshh</span></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=919833223117"><i class="fa fa-whatsapp"
+              aria-hidden="true"></i><span style="color: white;">&ensp; +91 9833223117</span></a></li><br>
+        <li><a href="https://www.facebook.com/lomesh.badhe" target="_top"><i class="fa fa-facebook-official"
+              aria-hidden="true"></i><span style="color: white;">&ensp; Lomesh LB</span></a></li><br>
+        <li><a href="https://www.instagram.com/lomesshh/"><i class="fa fa-instagram" aria-hidden="true"></i><span
+              style="color: white;">&ensp; lomesshh</span></a></li>
       </ul>
 
-      <ul class="menu simple" style="list-style-type: none; display: inline-block;">  
-        <li><a href="https://twitter.com/b84496f5a82e4e6"><i class="fa fa-twitter" aria-hidden="true"></i><span style="color: white;">&ensp; Lomesh Badhe</span></a></li><br>
-        <li><a href="tel:+91 9833223117"><i class="fa fa-mobile" aria-hidden="true"></i><span style="color: white;">&ensp; +91 9833223117</span></a></li><br>
-          <li><a href="mailto:badhelomesh82@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i><span style="color: white;">&ensp; badhelomesh82@gmail.com</span></a></li>
+      <ul class="menu simple" style="list-style-type: none; display: inline-block;">
+        <li><a href="https://twitter.com/b84496f5a82e4e6"><i class="fa fa-twitter" aria-hidden="true"></i><span
+              style="color: white;">&ensp; Lomesh Badhe</span></a></li><br>
+        <li><a href="tel:+91 9833223117"><i class="fa fa-mobile" aria-hidden="true"></i><span
+              style="color: white;">&ensp; +91 9833223117</span></a></li><br>
+        <li><a href="mailto:badhelomesh82@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i><span
+              style="color: white;">&ensp; badhelomesh82@gmail.com</span></a></li>
       </ul>
     </div>
   </footer>
-  
-
-
-
 
   <script src="app.js"></script>
 
