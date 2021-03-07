@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}  
+
 textarea {
     margin: 1rem;
     padding: 1rem;
@@ -17,15 +22,6 @@ button {
     padding: 15px 25px;
   }
 
-/* Taller footer on small screens */
-@media (max-width: 34em) {
-    body {
-      margin-bottom: 500px;
-    }
-    .footer {
-      height: 500px;
-    }
-}
 
 
 
