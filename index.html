@@ -9,27 +9,41 @@
 textarea{
     margin: 1rem;
     padding: 1rem;
-    width: 150ch;
+    width: 80%;
     display: block;
     border: 2px solid green;
     border-radius: 4px;
+    height: 10vh;
 }
 
 button{
     color: aqua;
     background-color: blueviolet;
-    border-radius: 51%;
-    border: 2px solid aqua;
+    border-radius: 12px;
     padding: 15px 25px;
+}
 
+#output{
+    border: 2px solid green;
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    height: 10vh;
+    border-radius: 4px;
 }
     </style>
 </head>
 <body>
 
-<textarea id="txt-input" placeholder="Enter Your sentence in english here and we will Translate it into some language for you" rows="6"></textarea>
+<textarea id="txt-input" placeholder="Enter Your sentence in english here and we will Translate it into some language for you"></textarea>
     <button id="btn-translate">Translate</button>
-<textarea id="txt-input" rows="6" ></textarea>
+
+    <div style="font-size: larger;
+    font-family: 'Brush Script MT', cursive;
+    margin: 1rem;">Output will be here 👇</div>
+
+    <div id="output"></div>
+
 
 <script src="app.js"></script>
 </body>
